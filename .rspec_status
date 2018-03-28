@@ -1,0 +1,4 @@
+example_id                 | status | run_time        |
+-------------------------- | ------ | --------------- |
+./spec/rojiku_spec.rb[1:1] | passed | 0.00057 seconds |
+./spec/rojiku_spec.rb[1:2] | failed | 0.01971 seconds |
