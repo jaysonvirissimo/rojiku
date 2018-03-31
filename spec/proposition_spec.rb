@@ -15,5 +15,11 @@ RSpec.describe Proposition do
 
       it { expect(subject.well_formed?).to eq(false) }
     end
+
+    context 'when the formula has no symbols' do
+      let(:formula) { '()' }
+
+      it { expect(subject.well_formed?).to eq(false) }
+    end
   end
 end
